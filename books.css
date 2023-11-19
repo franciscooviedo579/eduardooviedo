@@ -1,0 +1,41 @@
+main {
+  width: 1400px;
+  font-family: "Times New Roman", serif;
+  font-size: 1.1rem;
+
+}
+
+.book {
+  display: flex;
+  padding: 50px 75px;
+  height: 280px;
+}
+
+.book:nth-child(odd) {
+  background-color: #FAF7FF;
+}
+
+.book:nth-child(even) {
+    background-color: #E3E0F3;
+}
+
+.book img {
+  max-width: 175px;
+}
+
+.book p, h2 {
+  margin-left: 100px;
+}
+
+.book h2 {
+    margin-top: 10px;
+}
+
+.book .amazon {
+    margin-top: 30px;
+  text-align: center;
+}
+
+.book .amazon a, span {
+  margin: 0 30px;
+}
